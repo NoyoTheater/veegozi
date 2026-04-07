@@ -8,6 +8,10 @@
 *.so
 *.dylib
 
+# Nix
+result/
+.direnv
+
 # Test binary, built with `go test -c`
 *.test
 
