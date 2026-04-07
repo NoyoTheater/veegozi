@@ -17,6 +17,7 @@ go get github.com/NoyoTheater/veegozi
 ## Usage
 
 ```go
-client := NewClient("api.us.veezi.com", "your_api_key", WithDefaultCaching())
+import "github.com/NoyoTheater/veegozi"
+client := veegozi.NewClient("api.us.veezi.com", "your_api_key", veegozi.WithDefaultCaching())
 sessions, err := client.GetSessions(context.Background())
 ```
